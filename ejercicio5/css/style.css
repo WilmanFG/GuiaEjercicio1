@@ -1,0 +1,26 @@
+.principal{
+    width: 70%;
+    margin-top: 3%;
+    margin-left: 15%;
+}
+input{
+    box-shadow: none;
+    outline: none;
+}
+.btn{
+    margin-top: 2%;
+    background-color: #3d5a80;
+    box-shadow: none;
+    outline: none;
+}
+.btn:hover{
+    margin-top: 2%;
+    background-color: #e0fbfc;
+    color: #293241;
+}
+h1{
+    margin: auto;
+}
+body{
+    background-color: #98c1d9;
+}

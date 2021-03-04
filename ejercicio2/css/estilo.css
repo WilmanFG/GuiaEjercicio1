@@ -1,0 +1,99 @@
+body {
+ background-image: url(../img/fondo.png);
+ background-size: 100vw 100vh;
+ background-attachment: fixed;
+ /*margin-left:50px;
+ margin-right:50px;*/
+ overflow:hidden;
+}
+header                {
+    margin: 24px auto;
+    width: 100%;
+}
+
+header h1             {
+    color: #FFFFFF;
+    font: bold 2.5em Tahoma,Helvetica,sans-serif;
+    text-align: center;
+    text-shadow: 0px 2px 3px #989,
+                 1px 3px 5px #989,
+                 2px 4px 7px #989;
+}
+* {
+    margin: 10px;
+    padding: 15px;
+}
+
+html, body {
+    height: 100%;
+}
+form{
+	margin:auto;
+    width:250px;
+    padding:20px;
+    border:1px solid #270644;
+    /* Agregando propiedades CSS3 */
+    border-radius:12px;
+    -ms-border-radius:12px;
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    -khtml-border-radius:12px;
+    behavior:url(../rounded/border-radius.htc);
+    background:#2DDEB6;
+    background: -ms-radial-gradient(19% 75% 90deg, #2DDEB6, #138D75);
+    background:-moz-linear-gradient(19% 75% 90deg, #2DDEB6, #138D75);
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#138D75), to(#2DDEB6));
+    /* background:silver url("rounded.svg"); */
+    
+    /* Sombra a los costados de las cajas */
+    box-shadow:0px -5px 300px #270644;
+    -ms-box-shadow:0px -5px 300px #270644;
+    -moz-box-shadow:0px -5px 300px #270644;
+    -webkit-box-shadow:0px -5px 300px #270644;
+
+}
+
+label                  {
+    color:#000000;
+    font:Bold 1.1em Linotype,sans-serif;
+    text-transform:uppercase;
+}
+input                  {
+    width: 230px;
+    background: #FFFFFF;
+    padding: 6px;
+    margin-bottom: 10px;
+    border-top: 1px solid #808080;
+    border-left: 1px solid #808080;
+    border-right: 1px solid #AD64E0;
+    border-bottom: 1px solid #AD64E0;
+    /* Agregando propiedades CSS3 */
+    -webkit-transition-property: -webkit-box-shadow, background;
+    -webkit-transition-duration: 0.25s;
+    -moz-box-shadow: 0px 0px 2px #000;
+    -webkit-box-shadow: 0px 0px 2px #000;
+}
+input[type=text]       {
+    font:Normal 1em Palatino,Helvetica,sans-serif;
+    color:blue;
+}
+
+input[type=submit]:hover {
+    background-color:#ECF0F1;
+    color:#28B463;
+}
+
+.submit               {
+    background:rgb(50,50,120);
+    border:3px outset rgb(60,50,60);
+    bottom:-0.2em;
+    color:#28B463;
+    display:inline;
+    font:Bold 9pt "Century Gothic","Arial Rounded MT Bold",Helvetica,sans-serif;
+    position:relative;
+}
+
+.submit:hover         {
+    background:rgb(90,90,150);
+    color:White;
+}
